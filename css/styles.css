@@ -1,0 +1,40 @@
+html {
+	background-color: lightgray;
+}
+.container1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: gray;
+}
+#navbar {
+	text-align: right;
+}
+.container2 {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+@media (maxwidth: 350px){
+	.mobilecontainer {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+}
+#red {
+	background-color: red;
+}
+#green {
+ 	background-color: green;
+}
+#blue {
+	background-color: blue;
+}
+#black {
+	background-color: black;
+	color: white;
+}
+#white {
+	background-color: white;
+}
+#footer {
+	background-color: gray;
+}
