@@ -13,6 +13,10 @@ html {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 }
+.container3 {
+	display: grid;
+	grid-template-columns; 1fr 1fr 1fr;
+}
 @media (maxwidth: 350px){
 	.mobilecontainer {
 		display: grid;
