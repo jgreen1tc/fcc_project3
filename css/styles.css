@@ -13,7 +13,6 @@ html {
 }
 .container3 {
 	display: grid;
-	grid-template-rows: auto auto;
 	grid-template-columns; 1fr 1fr;
 }
  
