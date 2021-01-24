@@ -1,18 +1,19 @@
 html {
 	background-color: lightgray;
 }
-@media (min-width: 670px) {
 .container1 {
 	display: grid;
-	grid-template-areas: 
-	"header header"
-	"pic nav-bar"
-	"red red"
-	"green blue"
-	"black white"
-	"footer footer"
+	grid-template-rows: auto auto auto auto auto auto auto auto;
 	background-color: gray;
+	grid-gap: 10px
 }
+@media (min-width: 670px) {
+	.container1 {
+		display: grid;
+		grid-template-rows: auto auto auto auto auto auto;
+		grid-template-columns: auto auto;
+		background-color: gray;
+		grid-gap: 10px
 }
 #navbar {
 	text-align: right;
