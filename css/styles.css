@@ -3,18 +3,26 @@ html {
 }
 .container1 {
 	display: grid;
-	grid-template-rows: auto auto auto auto auto auto auto auto;
+	grid-template-columns: 1fr 1fr;
 	background-color: gray;
 	grid-gap: 10px
 }
-@media (min-width: 670px) {
-	.container1 {
-		display: grid;
-		grid-template-rows: auto auto auto auto auto auto;
-		grid-template-columns: auto auto;
-		background-color: gray;
-		grid-gap: 10px
+.container2 {
+	display: grid;
+	grid-template-rows: auto auto;
 }
+.container3 {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns; 1fr 1fr;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 #navbar {
 	text-align: right;
 }
